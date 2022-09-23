@@ -5,7 +5,7 @@ let photosArray = [];
 
 // Unsplash API
 const count = 30;
-const query = 'hypercars, supercars, tesla, hypercars'
+const query = 'hypercars, supercars, american'
 const apiKey = 'jm5lrFjl7NmMNh0j6cVkJ4MUMz1FzxuAPIBtrQwYxi8';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}&query=${query}`;
 
